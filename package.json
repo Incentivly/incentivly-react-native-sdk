@@ -1,0 +1,37 @@
+{
+  "name": "@incentivly/react-native-sdk",
+  "version": "1.0.0",
+  "description": "React Native SDK for Incentivly revenue sharing platform",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "incentivly",
+    "revenue-sharing",
+    "payment-reporting"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Incentivly/incentivly-react-native"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.60.0",
+    "@react-native-async-storage/async-storage": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
